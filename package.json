@@ -1,5 +1,13 @@
 {
-  "description": "",
+  "name" : "expense-manager",
+  "version": "1.0.0",
+  "description": "App for managing expenses",
+  "main" : "index.js",
+  "scripts": {
+    "dev" : "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "author": "Shrinivas",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
@@ -8,5 +16,8 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.3.0",
     "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
